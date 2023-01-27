@@ -1,3 +1,1 @@
-var nome = document.querySelector("#exampleInputName");
-
-nome.value = "Oi alline"
+let userController = new UserController("form-user-create", "form-user-update", "table-users");
